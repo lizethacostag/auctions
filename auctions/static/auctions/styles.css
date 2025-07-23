@@ -1,0 +1,97 @@
+body {
+    padding: 10px;
+    background-color: #f8f9fa;
+}
+
+.nav {
+    display: flex;
+    justify-content: center; /* This will center the buttons horizontally */
+    align-items: center; /* This will center the buttons vertically */
+    flex-direction: row; /* This will arrange the buttons in a row */
+    list-style-type: none; /* This will remove the default list styling */
+    padding: 0; /* This will remove the default padding */
+    font-family: 'Roboto';
+    color: gray;
+    font-style: italic;
+}
+
+.nav-item {
+    margin: 0 10px; /* This will add some space between the buttons */
+}
+
+#auctions {
+    text-align: center;
+    font-family: 'Great Vibes';
+    color: gray;
+    font-weight: 900;
+    font-style: italic;
+}
+
+#active-listings{
+    text-align: center;
+    font-family: 'Serif';
+    font-style: italic;
+    color: rgba(2, 2, 31, 0.856);
+    font-size: 25px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#category {
+    border: none; 
+    outline: none;
+}
+
+h2{
+    font-family: 'Serif';
+    font-style: italic;
+    color: rgba(2, 2, 31, 0.856);
+    font-size: 25px;
+}
+
+.card-horizontal {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+.img-container {
+    flex: 0 0 50%;
+    text-align: center;
+}
+
+.img-container img {
+    max-width: 40%;
+    height: auto;
+}
+
+.details-container {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.details-container h2 {
+    font-family: 'Garamond';
+}
+
+.details-container p {
+    font-family: 'Garamond';
+}
+
+.list-group-item {
+    font-family: 'Arial';
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
